@@ -1,0 +1,104 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+}
+
+.upper {
+    height: 50vh;
+}
+
+.upper .title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 60px 0 5px 0;
+    text-align: center;
+}
+
+.middle {
+    height: 230px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+}
+
+.middle::before {
+    content: "";
+    background-image: url("../../../../public/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.down {
+    background-color: teal;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.down .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.down .cards .card {
+    padding: 20px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.down .cards .card .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faicon {
+    color: orange;
+}
+
+.down .cards .card .exper {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.expdes {
+    color: rgb(205, 205, 205);
+}
+
+.hrExp {
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: rgb(200, 201, 201);
+}

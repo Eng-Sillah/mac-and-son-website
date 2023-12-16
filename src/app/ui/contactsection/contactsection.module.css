@@ -1,0 +1,28 @@
+.container {
+    background-color: teal;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container .title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contDesc {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(232, 234, 236);
+}
+
+.container .contactBtn {
+    padding: 15px 30px;
+    background-color: orange;
+    margin-top: 20px;
+}
