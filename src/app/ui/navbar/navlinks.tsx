@@ -1,4 +1,5 @@
 import Link from "next/link"
+// import clsx from "clsx"
 
 
 const links = [
@@ -29,7 +30,7 @@ export default function NavLinks() {
        <>
         {links.map(link => {
             return (
-                <Link key={link.path} href={link.path}>{link.title}</Link>
+                <Link key={link.path} href={link.path} >{link.title}</Link>
             )
         })}
        </>

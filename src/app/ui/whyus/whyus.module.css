@@ -6,7 +6,7 @@
 }
 
 .upper {
-    height: 50vh;
+    height: 30vh;
 }
 
 .upper .title {
@@ -21,7 +21,7 @@
     width: 80%;
     margin: 0 auto;
     background-color: aqua;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 0;
     right: 0;
@@ -30,14 +30,14 @@
 
 .middle::before {
     content: "";
-    background-image: url("../../../../public/hero-desktop.jpg");
+    background-image: url("../../../../public/cocoa-02.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: absolute;
     top: 0px;
     right: 0px;
-    bottom: 0px;
+    bottom: -20px;
     left: 0px;
     
 }
@@ -48,6 +48,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  
 }
 
 .down .cards {
@@ -57,7 +58,7 @@
     align-items: center;
     width: 80%;
     margin: 0 auto;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .down .cards .card {

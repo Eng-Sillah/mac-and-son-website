@@ -1,0 +1,77 @@
+.container {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(229, 227, 227);
+}
+
+.container .content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.container .content .left,
+.container .content .right {
+    width: 45%;
+    
+}
+
+.container .content .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container .content .right input,
+.container .content .right textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(236, 232, 232);
+    border: 1px solid black;
+}
+
+.container .content .right .inputBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.container .content .right .inputBox .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .right  .comment {
+    margin-top: 10px;
+}
+
+.btnSubmit {
+    background-color: antiquewhite;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.container .content .left .title {
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.container .content .left .desc {
+    color: aliceblue;
+    margin-top: 5px;
+}

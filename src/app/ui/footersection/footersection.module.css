@@ -1,0 +1,44 @@
+.container {
+    background-color: teal;
+    color: white;
+    padding: 50px 0px;
+    border-top: 1px solid rgb(244, 243, 242);
+}
+
+.container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container .content div {
+    width: 45%;
+    gap: 5px;
+}
+
+.container .content .contactservice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .content .contactservice .contact ul li,
+.container .content .contactservice .services ul li {
+    margin: 15px 0px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.container .content .contactservice .contact ul li:hover,
+.container .content .contactservice .services ul li:hover {
+    background-color: rgb(7, 137, 137);
+}
+
+.container .content .contactservice .services h2,
+.container .content .aboutus h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}

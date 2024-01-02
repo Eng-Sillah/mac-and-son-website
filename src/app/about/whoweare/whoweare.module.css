@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    padding: 100px 0;
+}
+
+.container::before {
+    content: "";
+    background-image: url("../../../../public/aboutsection-desktop.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.container .content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+}
+
+.container .content .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container .content .hr {
+    height: 5px;
+    background-color: orange;
+    width: 15%;
+    border: none;
+}
+
+.container .content .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container .content .cards .card {
+    width: 45%;
+    padding: 10px;
+}
+
+.container .content .card .headings {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: teal;
+    margin: 10px 0;
+}
+
+
+.container .content .card .desc {
+    text-align: justify;
+    margin: 15px 0;
+}

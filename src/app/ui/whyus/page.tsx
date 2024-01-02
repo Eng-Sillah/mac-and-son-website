@@ -37,7 +37,7 @@ export default function WhyUsSection() {
                     </div>
                     <hr className={styles.hrExp} />
                 </div>
-                    
+
             </div>
         </div>
     )

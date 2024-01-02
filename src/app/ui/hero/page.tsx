@@ -5,7 +5,9 @@ import ClientSection from "../clientsection/page"
 import WhyUsSection from "../whyus/page"
 import ContactSection from "../contactsection/page"
 import ContactSocialLinks from "../contactsociallinks/page"
-import FooterSection from "../footersection/page"
+import FooterSection from "../footersection/footer"
+
+
 export default function Hero() {
 
     return (
@@ -31,7 +33,7 @@ export default function Hero() {
                         <div className={styles.card}>
                 
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={300} height={200} alt=".." className="w-full"  />
+                                <Image src="/construction-01.jpg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>Construction</h4>
                             <p className={styles.desc}>We undertake various construction projects, including residential and commercial buildings, roads, bridges, and other infrastructure facilities. We have a team of experienced and qualified professionals equipped to handle projects of all sizes and complexities.</p>
@@ -40,7 +42,7 @@ export default function Hero() {
                         <div className={styles.card}>
                             
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={300} height={200} alt=".." className="w-full"  />
+                                <Image src="/merchandice-01.jpg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>General Merchandise</h4>
                             <p className={styles.desc}>We are a trusted supplier of a wide variety of general merchandise, including household goods, electronics, clothing, and food items. We cater to both individual consumers and wholesale businesses.</p>
@@ -49,7 +51,7 @@ export default function Hero() {
                         <div className={styles.card}>
                      
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={300} height={200} alt=".." className="w-full"  />
+                                <Image src="/cocoa-01.jpg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>Cocoa Buying and Selling</h4>
                             <p className={styles.desc}>We are actively involved in the cocoa trade, directly purchasing cocoa beans from farmers and exporting them to international markets. We also offer competitive prices and reliable services to cocoa producers.</p>
@@ -58,7 +60,7 @@ export default function Hero() {
                         <div className={styles.card}>
                           
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={300} height={200} alt=".." className="w-full"  />
+                                <Image src="/bmaterial-01.jpg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>Building Materials</h4>
                             <p className={styles.desc}>We provide a comprehensive range of building materials, including cement, sand, gravel, bricks, tiles, and other construction essentials. We are committed to supplying high-quality materials at competitive prices.</p>
@@ -67,7 +69,7 @@ export default function Hero() {
                         <div className={styles.card}>
                            
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={300} height={200} alt=".." className="w-full"  />
+                                <Image src="/interior-02.jpg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>Interior Decoration</h4>
                             <p className={styles.desc}>Lorem ipsum dolor sit amet cons, adipisicing elit. Laboriosam perferendis a suscipit corrupti id sint vel cupiditate quasi minus aperiam,</p>
