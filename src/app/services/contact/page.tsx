@@ -26,7 +26,7 @@ export default function Contact() {
                         <input type="email" />
                         <div className={styles.comment}>
                         <label htmlFor="">Comment or Message</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea name="" id="" cols={30} rows={10}></textarea>
                         </div>
                         <button type="submit" className={styles.btnSubmit}>Submit</button>
                     </form>
