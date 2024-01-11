@@ -69,7 +69,7 @@ export default function Hero() {
                         <div className={styles.card}>
                            
                             <div className={styles.cardImg}>
-                                <Image src="/interior-02.jpg" width={300} height={200} alt=".." className="w-full"  />
+                                <Image src="/interiordeco-10.jpeg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>Interior Decoration</h4>
                             <p className={styles.desc}>Lorem ipsum dolor sit amet cons, adipisicing elit. Laboriosam perferendis a suscipit corrupti id sint vel cupiditate quasi minus aperiam,</p>

@@ -15,39 +15,39 @@ export default function WhatWeDo() {
                     <div className={styles.cards}>
                         <div className={styles.card}>
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
+                                <Image src="/construction-01.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
                             </div>
-                            <h2 className={styles.cardTitle}>General Contract</h2>
-                                <p className={styles.cardDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <h2 className={styles.cardTitle}>Construction</h2>
+                                <p className={styles.cardDesc}>We undertake various construction projects, including residential and commercial buildings, roads, bridges, and other infrastructure facilities. We have a team of experienced and qualified professionals equipped to handle projects of all sizes and complexities.</p>
                         </div>
                         <div className={styles.card}>
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
+                                <Image src="/merchandice-01.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
                             </div>
-                            <h2 className={styles.cardTitle}>General Contract</h2>
-                                <p className={styles.cardDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <h2 className={styles.cardTitle}>General Merchandice</h2>
+                                <p className={styles.cardDesc}>We are a trusted supplier of a wide variety of general merchandise, including household goods, electronics, clothing, and food items. We cater to both individual consumers and wholesale businesses.</p>
                         </div>
                         <div className={styles.card}>
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
+                                <Image src="/cocoa-01.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
                             </div>
-                            <h2 className={styles.cardTitle}>General Contract</h2>
-                                <p className={styles.cardDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        </div>
-
-                        <div className={styles.card}>
-                            <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
-                            </div>
-                            <h2 className={styles.cardTitle}>General Contract</h2>
-                                <p className={styles.cardDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <h2 className={styles.cardTitle}>Cocoa Buying and Selling</h2>
+                                <p className={styles.cardDesc}>We are actively involved in the cocoa trade, directly purchasing cocoa beans from farmers and exporting them to international markets. We also offer competitive prices and reliable services to cocoa producers.</p>
                         </div>
 
                         <div className={styles.card}>
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
+                                <Image src="/bmaterial-01.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
                             </div>
-                            <h2 className={styles.cardTitle}>General Contract</h2>
+                            <h2 className={styles.cardTitle}>Building Material</h2>
+                                <p className={styles.cardDesc}>We provide a comprehensive range of building materials, including cement, sand, gravel, bricks, tiles, and other construction essentials. We are committed to supplying high-quality materials at competitive prices.</p>
+                        </div>
+
+                        <div className={styles.card}>
+                            <div className={styles.cardImg}>
+                                <Image src="/interiordeco-10.jpeg" width={150} height={200} alt="service img" className="w-full h-full"/>
+                            </div>
+                            <h2 className={styles.cardTitle}>Interior Decoration</h2>
                                 <p className={styles.cardDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         </div>
 
