@@ -34,22 +34,23 @@
 
 .testimoniaComtainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 50px;
-
 }
 
 .testimoniaComtainer .card {
     background-color: white;
-    width: 30%;
+    width: 100%; /* Full width on small screens */
+    max-width: 300px; /* Limit width on larger screens */
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .testimoniaComtainer .card .icons {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .testimoniaComtainer .card .icons .icon {
@@ -64,7 +65,7 @@
 
 .testimoniaComtainer .card .hrclient {
     margin-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .testimoniaComtainer .card .users {
@@ -77,11 +78,24 @@
     width: 50px;
     height: 50px;
     border: 1px solid teal;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .testimoniaComtainer .card .users .username {
     color: teal;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (min-width: 768px) {
+    .testimoniaComtainer .card {
+        width: 48%; /* Two cards per row on medium screens */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .testimoniaComtainer .card {
+        width: 30%; /* Three cards per row on large screens */
+    }
 }

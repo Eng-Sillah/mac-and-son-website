@@ -11,14 +11,13 @@
     content: "";
     background-image: url("../../../../public/aboutsection-desktop.jpg");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     opacity: 0.75;
 }
 
@@ -54,8 +53,30 @@
 }
 
 .container .content .desc {
-    width: 65%;
+    width: 100%; /* Full width on small screens */
+    max-width: 800px; /* Limit width on larger screens */
     margin: 10px auto;
     text-align: center;
+}
 
+.container button {
+    background-color: teal;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (min-width: 768px) {
+    .container .content .desc {
+        width: 70%; /* Adjust width on medium screens */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container .content .desc {
+        width: 60%; /* Adjust width on large screens */
+    }
 }

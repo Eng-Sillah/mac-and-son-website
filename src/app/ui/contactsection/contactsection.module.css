@@ -1,6 +1,6 @@
 .container {
     background-color: teal;
-    height: 100vh;
+    height: auto; /* Adjusted to auto height */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,11 +12,13 @@
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 20px; /* Added margin-top for spacing */
 }
 
 .contDesc {
-    width: 60%;
-    margin: 0 auto;
+    width: 80%; /* Adjusted to 80% for better readability on small screens */
+    max-width: 600px; /* Limit width on larger screens */
+    margin: 20px auto; /* Adjusted margin for better spacing */
     text-align: center;
     color: rgb(232, 234, 236);
 }
@@ -25,4 +27,17 @@
     padding: 15px 30px;
     background-color: orange;
     margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (min-width: 768px) {
+    .container .contDesc {
+        width: 70%; /* Adjusted width on medium screens */
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container .contDesc {
+        width: 60%; /* Adjusted width on large screens */
+    }
 }
