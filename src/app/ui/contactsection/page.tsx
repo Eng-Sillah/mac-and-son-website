@@ -6,7 +6,7 @@ export default function ContactSection() {
         <div className={styles.container}>
             <hr className={styles.hrCont} />
             <h1 className={styles.title}>Let&apos;s Build Your <br /> Dreams!</h1>
-            <p className={styles.contDesc}>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+            <p className={styles.contDesc}>We invite you to contact us for further information about our services or to discuss your specific needs. We are happy to answer your questions and provide you with a personalized solution.</p>
             <button className={styles.contactBtn}>CONTACT US</button>
         </div>
     )

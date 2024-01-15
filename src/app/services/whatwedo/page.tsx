@@ -10,7 +10,7 @@ export default function WhatWeDo() {
                 <div className={styles.heading}>
                     <h1 className={styles.title}>What We Do</h1>
                     <hr className={styles.hr} />
-                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    <p className={styles.whatdesc}>Mac and Sons Construction Enterprise and Services is actively involved in various community initiatives, supporting education, healthcare, and environmental conservation efforts. We believe in giving back to the communities we serve and contributing to positive social development.</p>
                     </div>
                     <div className={styles.cards}>
                         <div className={styles.card}>
@@ -53,9 +53,9 @@ export default function WhatWeDo() {
 
                         <div className={styles.card}>
                             <div className={styles.cardImg}>
-                                <Image src="/hero-desktop.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
+                                <Image src="/home-extension.jpg" width={150} height={200} alt="service img" className="w-full h-full"/>
                             </div>
-                            <h2 className={styles.cardTitle}>General Contract</h2>
+                            <h2 className={styles.cardTitle}>Home Extension</h2>
                                 <p className={styles.cardDesc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                         </div>
                     </div>

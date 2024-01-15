@@ -9,24 +9,24 @@ export default function OurProjects() {
                     <div className={styles.project}>
                         <div className={styles.ourwork}>
                             <h1>Our Work</h1>
-                            <hr />
+                            <hr className={styles.hr}/>
                         </div>
                         <div className={styles.carouselContainer}>
-                            {/* <Image src="/hero-desktop.jpg" width={200} height={150} alt="service img" className="w-full"/> */}
+                            <Image src="/construction-02.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
                         </div>
                     </div>
                     <div className={styles.project}>
                         <div className={styles.rightDiv}>
-                            {/* <Image src="/hero-desktop.jpg" width={200} height={150} alt="service img" className="w-full h-full"/> */}
-                            <h1>Right</h1>
+                            <Image src="/cocoa-03.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
+                            {/* <h1>Right</h1> */}
                         </div>
                         <div className={styles.rightDiv}>
-                            {/* <Image src="/hero-desktop.jpg" width={200} height={150} alt="service img" className="w-full h-full"/> */}
-                            <h1>Right</h1>
+                            <Image src="/home-extension.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
+                            {/* <h1>Right</h1> */}
                         </div>
                         <div className={styles.rightDiv}>
-                            {/* <Image src="/hero-desktop.jpg" width={200} height={150} alt="service img" className="w-full h-full"/> */}
-                            <h1>Right</h1>
+                            <Image src="/project5.jpg" width={200} height={150} alt="service img" className="w-full h-full"/>
+                            {/* <h1>Right</h1> */}
                         </div>
                     </div>
                 </div>

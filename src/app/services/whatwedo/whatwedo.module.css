@@ -14,6 +14,9 @@
     margin-bottom: 20px;
 }
 
+.whatdesc {
+    text-align: justify;
+}
 .container .content .heading {
     width: 50%;
     margin-top: 50px;
