@@ -28,9 +28,9 @@ export default function Navbar() {
         <div className={`${styles.bar} ${isMenuOpen ? styles.openMenu : ""}`}></div>
       </div>
       <div className={`${styles.links} ${isMenuOpen ? styles.openLinks : ""}`} onClick={toggleMenu}>
-        <NavLinks isMenuOpen={isMenuOpen} closeMenu={closeMenu} />
+        <NavLinks isMenuOpen={isMenuOpen} closeMenu ={closeMenu} />
         <p>+23276711110</p>
       </div>
     </div>
-  );
+  ); 
 }

@@ -27,7 +27,7 @@ export default function Hero() {
                                 <Image src="/hero-desktop.jpg" width={200} height={200} alt=".." className="w-full" />
                             </div> */}
                             <hr className={styles.hr4reliable} />
-                            <p className={styles.desc}>We are Mac and Sons, woven into the fabric of Sierra Leone. We raise foundations, forge futures, and bring dreams to life, one project, one product, one possibility at a time. From infrastructure to everyday essentials, we're more than bricks and mortar – we're your trusted partner, building a brighter tomorrow, together.</p>
+                            <p className={styles.desc}>We are Mac and Sons, woven into the fabric of Sierra Leone. We raise foundations, forge futures, and bring dreams to life, one project, one product, one possibility at a time. From infrastructure to everyday essentials, we&apos;re more than bricks and mortar  we&apos;re your trusted partner, building a brighter tomorrow, together.</p>
                             <button className={styles.addBtn}>+</button>
                         </div>
                         <div className={styles.card}>
