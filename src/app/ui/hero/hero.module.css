@@ -48,6 +48,16 @@
     position: relative;
 }
 
+.hr4reliable {
+    height: 15px;
+    font-size: 2rem;
+    color: black;
+    width: 100px;
+    background-color: white;
+    margin-bottom: 0;
+    position: relative;
+}
+
 .content h1 {
     position: relative;
     color: #000;

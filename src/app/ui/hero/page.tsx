@@ -26,8 +26,8 @@ export default function Hero() {
                             {/* <div className={styles.cardImg}>
                                 <Image src="/hero-desktop.jpg" width={200} height={200} alt=".." className="w-full" />
                             </div> */}
-                            <hr className={styles.hr} />
-                            <p className={styles.desc}>Lorem ipsum dolor sit amet cons, adipisicing elit. Laboriosam perferendis a suscipit corrupti id sint vel cupiditate quasi minus aperiam,</p>
+                            <hr className={styles.hr4reliable} />
+                            <p className={styles.desc}>We are Mac and Sons, woven into the fabric of Sierra Leone. We raise foundations, forge futures, and bring dreams to life, one project, one product, one possibility at a time. From infrastructure to everyday essentials, we're more than bricks and mortar – we're your trusted partner, building a brighter tomorrow, together.</p>
                             <button className={styles.addBtn}>+</button>
                         </div>
                         <div className={styles.card}>
@@ -45,7 +45,7 @@ export default function Hero() {
                                 <Image src="/merchandice-01.jpg" width={300} height={200} alt=".." className="w-full"  />
                             </div>
                             <h4 className={styles.title}>General Merchandise</h4>
-                            <p className={styles.desc}>We are a trusted supplier of a wide variety of general merchandise, including household goods, electronics, clothing, and food items. We cater to both individual consumers and wholesale businesses.</p>
+                            <p className={styles.desc}>We are a trusted supplier of a wide variety of general merchandise, including household goods, electronics etc. We cater to both individual consumers and wholesale businesses.</p>
                             <button className={styles.addBtn}>+</button>
                         </div>
                         <div className={styles.card}>
