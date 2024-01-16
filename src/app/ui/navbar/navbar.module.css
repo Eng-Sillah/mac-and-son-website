@@ -5,7 +5,6 @@
     padding: 20px;
     background-color: teal;
     color: white;
-    transition: max-height 0.5s ease-out;
   }
   
   .links {
@@ -15,8 +14,7 @@
   
   .hamburgerMenu {
     cursor: pointer;
-    display: none;
-    flex-direction: column;
+    display: none; /* Initially hide the hamburger menu */
   }
   
   .bar {
@@ -26,29 +24,30 @@
     margin: 5px 0;
   }
   
+  .openLinks {
+    display: flex !important;
+    flex-basis: 100%;
+    flex-direction: column;
+  }
+  
   /* Media Queries for Responsive Design */
   @media only screen and (max-width: 768px) {
     .container {
-      flex-direction: column;
-      align-items: flex-start;
+        align-items: center;
+        justify-content: space-between;
     }
-  
-    .links {
-      margin-top: 10px;
-      flex-basis: 100%;
-    }
-  
-    .links p {
-      order: 1;
-    }
-  
     .hamburgerMenu {
-      display: flex;
-      order: 2;
+      display: flex; /* Display the hamburger menu on smaller screens */
+      flex-direction: column;
     }
   
     .openMenu {
-      max-height: 200px;
+      max-height: 200px; /* Adjust as needed */
+    }
+  
+    .links {
+      display: none;
+      flex-basis: 100%;
     }
   }
   

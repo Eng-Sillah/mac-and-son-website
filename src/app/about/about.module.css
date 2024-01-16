@@ -1,6 +1,7 @@
 .mainContainer {
     width: 100%;
 }
+
 .container {
     height: 86vh;
     width: 100%;
@@ -24,7 +25,15 @@
 
 .h1 {
     position: relative;
-    margin-left: 80px;
-    font-size: 5rem;
+    margin-left: 10%; /* Adjust as needed */
+    font-size: 3rem; /* Adjust as needed */
     font-weight: bolder;
+}
+
+/* Responsive Design */
+@media only screen and (min-width: 768px) {
+    .container .h1 {
+        margin-left: 15%; /* Adjust as needed */
+        font-size: 4rem; /* Adjust as needed */
+    }
 }

@@ -7,6 +7,7 @@
     width: 90%;
     margin: 0 auto;
 }
+
 .container .content .hr {
     height: 5px;
     background-color: teal;
@@ -17,30 +18,30 @@
 .whatdesc {
     text-align: justify;
 }
+
 .container .content .heading {
-    width: 50%;
+    width: 100%;
     margin-top: 50px;
 }
 
 .container .content .heading .title {
     font-size: 5rem;
     font-weight: bolder;
-
 }
 
 .container .content .cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 70px;
-    padding-bottom: 50px;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
 
 .container .content .cards .card {
-    width: 32%;
+    width: 100%;
     padding: 10px;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .container .content .cards .card:hover {
@@ -57,4 +58,21 @@
     font-weight: bold;
     margin-top: 8px;
     margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media only screen and (min-width: 768px) {
+    .container .content .heading {
+        width: 50%;
+    }
+
+    .container .content .cards .card {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container .content .cards .card {
+        width: 30%;
+    }
 }

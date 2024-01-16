@@ -1,33 +1,36 @@
 .container {
     background-color: teal;
     color: white;
-    padding: 50px 0px;
+    padding: 50px 20px; /* Adjust padding for smaller screens */
     border-top: 1px solid rgb(244, 243, 242);
+    text-align: center; /* Center text in the container */
 }
 
 .container .content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    justify-content: space-around; /* Center content horizontally */
+    align-items: center;
     width: 90%;
     margin: 0 auto;
 }
 
 .container .content div {
-    width: 45%;
-    gap: 5px;
+    width: 100%; /* Take full width on smaller screens */
+    margin-bottom: 30px; /* Adjust margin for better spacing on smaller screens */
 }
 
 .container .content .contactservice {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack items in a column on smaller screens */
+    justify-content: space-around; /* Center content vertically */
     align-items: center;
 }
 
 .container .content .contactservice .contact ul li,
 .container .content .contactservice .services ul li {
     margin: 15px 0px;
-    font-size: 1.1rem;
+    font-size: 1rem; /* Adjust font size for smaller screens */
     cursor: pointer;
 }
 
@@ -38,7 +41,14 @@
 
 .container .content .contactservice .services h2,
 .container .content .aboutus h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
     font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 15px; /* Adjust margin for better spacing on smaller screens */
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (min-width: 768px) {
+    .container .content div {
+        width: 45%; /* Reset width for larger screens */
+    }
 }

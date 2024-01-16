@@ -1,6 +1,7 @@
 .mainContainer {
     width: 100%;
 }
+
 .container {
     height: 86vh;
     width: 100%;
@@ -15,16 +16,39 @@
     background-attachment: fixed;
     background-position: center;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     opacity: 0.75;
 }
 
 .h1 {
     position: relative;
-    margin-left: 80px;
+    margin-left: 5%;
     font-size: 5rem;
     font-weight: bolder;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-top: 150px;
+    }
+
+    .h1 {
+        margin-left: 5%;
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding-top: 120px;
+    }
+
+    .h1 {
+        margin-left: 5%;
+        font-size: 3rem;
+    }
 }

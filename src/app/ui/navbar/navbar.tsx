@@ -12,17 +12,17 @@ export default function Navbar() {
   };
 
   return (
-    <div className={`${styles.container} ${isMenuOpen ? styles.openMenu : ""}`}>
+    <div className={styles.container}>
       <div>
         <h1>LOGO</h1>
       </div>
-      <div className={styles.links}>
-        <div className={styles.hamburgerMenu} onClick={toggleMenu}>
-          <div className={styles.bar}></div>
-          <div className={styles.bar}></div>
-          <div className={styles.bar}></div>
-        </div>
-        <NavLinks />
+      <div className={styles.hamburgerMenu} onClick={toggleMenu}>
+        <div className={`${styles.bar} ${isMenuOpen ? styles.openMenu : ""}`}></div>
+        <div className={`${styles.bar} ${isMenuOpen ? styles.openMenu : ""}`}></div>
+        <div className={`${styles.bar} ${isMenuOpen ? styles.openMenu : ""}`}></div>
+      </div>
+      <div className={`${styles.links} ${isMenuOpen ? styles.openLinks : ""}`}>
+        <NavLinks isMenuOpen={isMenuOpen} />
         <p>+23276711110</p>
       </div>
     </div>

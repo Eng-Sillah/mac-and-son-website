@@ -53,8 +53,10 @@
 }
 
 .container .content .cards .card {
-    width: 45%;
+    width: 100%; /* Change to full width on smaller screens */
+    max-width: 45%; /* Limit maximum width on larger screens */
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .container .content .card .headings {
@@ -64,8 +66,14 @@
     margin: 10px 0;
 }
 
-
 .container .content .card .desc {
     text-align: justify;
     margin: 15px 0;
+}
+
+/* Responsive Design */
+@media only screen and (min-width: 768px) {
+    .container .content .cards .card {
+        max-width: 45%;
+    }
 }
