@@ -16,7 +16,7 @@ export default function WhoWeAre() {
 
                     <div className={styles.card}>
                         <h2 className={styles.headings}>Professional and Reliable Services</h2>
-                        <p className={styles.desc}>At Mac and Sons, "Professional and Reliable Services" isn&apos;t just a tagline, it&apos;s the cornerstone of everything we do. Imagine a confident construction worker in a hard hat, holding a blueprint and smiling, symbolizing professionalism and expertise.</p>
+                        <p className={styles.desc}>At Mac and Sons, &apos;Professional and Reliable Services&apos; isn&apos;t just a tagline, it&apos;s the cornerstone of everything we do. Imagine a confident construction worker in a hard hat, holding a blueprint and smiling, symbolizing professionalism and expertise.</p>
                         <p className={styles.desc}>Mac and Sons: where expertise meets unwavering dedication. We bridge the gap between blueprint and reality, meticulously crafting your vision with professionalism you can trust, every step of the way.</p>
                         
                     </div>
