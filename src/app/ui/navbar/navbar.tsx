@@ -1,5 +1,6 @@
 "use client"
 
+// navbar.tsx
 import React, { useState } from "react";
 import NavLinks from "./navlinks";
 import styles from "./navbar.module.css";
@@ -22,7 +23,7 @@ export default function Navbar() {
         <div className={`${styles.bar} ${isMenuOpen ? styles.openMenu : ""}`}></div>
       </div>
       <div className={`${styles.links} ${isMenuOpen ? styles.openLinks : ""}`}>
-        <NavLinks isMenuOpen={isMenuOpen} />
+        <NavLinks isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
         <p>+23276711110</p>
       </div>
     </div>
