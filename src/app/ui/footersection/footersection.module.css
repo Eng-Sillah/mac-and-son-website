@@ -42,3 +42,24 @@
     font-weight: bold;
     margin-bottom: 35px;
 }
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+    .container .content {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container .content .contactservice {
+        flex-direction: column;
+    }
+
+
+    .container .content div {
+        width: 100%;
+        margin-bottom: 20px; /* Add margin between the sections */
+    }
+}
