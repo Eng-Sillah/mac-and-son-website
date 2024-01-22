@@ -1,3 +1,4 @@
+/* contactsociallinks.module.css */
 .container {
     width: 100%;
     height: auto; /* Adjusted to auto height */
@@ -5,9 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container .linksContainer {
+  }
+  
+  .container .linksContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +16,9 @@
     width: 80%;
     margin: 0 auto;
     gap: 20px;
-}
-
-.container .linksContainer .socialIcons {
+  }
+  
+  .container .linksContainer .socialIcons {
     border-left: 1px solid rgb(213, 211, 211);
     border-right: 1px solid rgb(213, 211, 211);
     width: 100%; /* Full width on small screens */
@@ -29,22 +30,31 @@
     align-items: center;
     color: white;
     margin-bottom: 10px; /* Added margin-bottom for spacing */
-}
-
-.container .linksContainer .socialIcons:hover {
+  }
+  
+  .container .linksContainer .socialIcons:hover {
     background-color: rgb(254, 172, 19);
-}
-
-/* Media Queries for Responsive Design */
-@media only screen and (min-width: 768px) {
-    .container .linksContainer .socialIcons {
-        width: 48%; /* Two icons per row on medium screens */
-        max-width: none; /* Remove max-width on medium screens */
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media only screen and (min-width: 768px) {
+    .container .linksContainer {
+      display: flex;
+      flex-direction: row;
     }
-}
-
-@media only screen and (min-width: 992px) {
     .container .linksContainer .socialIcons {
-        width: 30%; /* Three icons per row on large screens */
+      /* width: 48%; Two icons per row on medium screens */
+      max-width: none; /* Remove max-width on medium screens */
     }
-}
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .container .linksContainer {
+      display: flex;
+      flex-direction: row;
+    }
+    .container .linksContainer .socialIcons {
+      width: 30%; /* Three icons per row on large screens */
+    }
+  }
+  

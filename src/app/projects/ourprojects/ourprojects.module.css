@@ -2,58 +2,70 @@
     width: 100%;
     font-size: 16px;
     color: black;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container .content {
     width: 90%;
     margin: 0 auto;
-    height: 100%;
 }
 
 .container .content .projects {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    position: relative;
-    /* background-color: yellow; */
-    height: 100%;
+    flex-direction: column; /* Change to column for smaller viewports */
+    align-items: stretch;
 }
 
 .container .content .projects .project {
-    width: 49%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    width: 100%; /* Take full width on smaller viewports */
+    margin-bottom: 20px;
 }
 
 .container .content .projects .project .ourwork {
-    height: 20%;
-    /* margin-bottom: 15px; */
+    height: 10%; 
+  
 }
 
 .container .content .projects .project .ourwork h1 {
-    font-size: 4rem;
-    font-weight: bold;
-    padding: 5px;
-    margin: 0;
+    font-size: 4rem; /* Adjusted font size for smaller viewports */
 }
 
 .container .content .projects .project .ourwork .hr {
-    width: 20%;
-    height: 8px;
-    background-color: teal;
-    margin: 0;
-    padding: 0;
+    width: 10%;
+    margin-bottom: 10px;
 }
 
 .container .content .projects .project .carouselContainer {
-    height: 80%;
+    height: auto; /* Adjust height for smaller viewports */
     background-color: bisque;
 }
 
 .container .content .projects .project .rightDiv {
     width: 100%;
-    height: 33.3%;
+    height: auto; /* Adjust height for smaller viewports */
+    margin-bottom: 10px;
     background-color: blueviolet;
+}
+
+/* Media Query for smaller viewports */
+@media screen and (min-width: 768px) {
+    .container .content .projects {
+        flex-direction: row; /* Change back to row for larger viewports */
+    }
+
+    .container .content .projects .project {
+        width: 49%;
+    }
+
+    .container .content .projects .project .ourwork {
+        height: 10%;
+    }
+
+    .container .content .projects .project .carouselContainer {
+        height: 80%;
+    }
+
+    .container .content .projects .project .rightDiv {
+        height: 33.3%;
+    }
 }

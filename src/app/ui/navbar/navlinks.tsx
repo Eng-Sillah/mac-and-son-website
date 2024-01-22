@@ -35,9 +35,9 @@ export default function NavLinks({ isMenuOpen, closeMenu }: NavLinksProps) {
       {links.map(link => (
         <Link key={link.path} href={link.path} onClick={closeMenu}>
           {/* Wrap the <a> tag with any other element */}
-          <div>
-            <a>{link.title}</a>
-          </div>
+          
+            {link.title}
+          
         </Link>
       ))}
     </>

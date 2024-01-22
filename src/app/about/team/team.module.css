@@ -134,3 +134,34 @@
     background-color: orange;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .content .cards .card {
+        width: 100%;
+    }
+
+    .down .cards .card {
+        width: 100%;
+    }
+
+    .down .cards .card .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .down .cards .card .exper {
+        font-size: 0.9rem;
+    }
+
+    .contactUsContainer .title {
+        font-size: 1.5rem;
+    }
+
+    .contDesc {
+        width: 100%;
+    }
+
+    .contactUsContainer .contactBtn {
+        padding: 12px 25px;
+    }
+}

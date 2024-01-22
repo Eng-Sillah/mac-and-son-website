@@ -29,6 +29,9 @@
     /* align-items: center; */
     /* justify-content: center; */
     position: relative;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .content .title {
@@ -72,8 +75,14 @@
 }
 
 /* Responsive Design */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .container .content .cards  {
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
     .container .content .cards .card {
-        max-width: 45%;
+        max-width:   100%;
     }
 }

@@ -87,4 +87,8 @@
     .container .content .right {
         width: 48%;
     }
+
+    .btnSubmit {
+        width: 100%;
+    }
 }
