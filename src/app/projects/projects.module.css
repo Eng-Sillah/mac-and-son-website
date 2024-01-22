@@ -1,6 +1,7 @@
 .mainContainer {
     width: 100%;
 }
+
 .container {
     height: 86vh;
     width: 100%;
@@ -29,6 +30,15 @@
     font-weight: bolder;
 }
 
-/* .ourprojects {
-    height: 100vh;
-} */
+/* Media Query for smaller viewports */
+@media screen and (max-width: 767px) {
+    .container {
+        height: auto; /* Adjust height as needed for responsiveness */
+        padding-top: 150px; /* Adjust top padding for responsiveness */
+    }
+
+    .h1 {
+        font-size: 3rem; /* Adjust font size for responsiveness */
+        margin-left: 20px; 
+    }
+}
