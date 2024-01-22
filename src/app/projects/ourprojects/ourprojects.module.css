@@ -36,7 +36,7 @@
 }
 
 .container .content .projects .project .carouselContainer {
-    height: auto; /* Adjust height for smaller viewports */
+    height: 100%; /* Adjust height for smaller viewports */
     background-color: bisque;
 }
 
@@ -66,6 +66,6 @@
     }
 
     .container .content .projects .project .rightDiv {
-        height: 33.3%;
+        height: 29.7%;
     }
 }
